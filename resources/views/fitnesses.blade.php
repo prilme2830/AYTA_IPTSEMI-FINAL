@@ -11,13 +11,11 @@
 <body>
     <table border="1" cellpadding="10">
         <thead>
-            <tr>
-                <th>ID</th>
-                <th>Home/Dashboard</th>
-                <th>Workout List</th>
-                <th>Add Workout</th>
-
-            </tr>
+            <>
+                <th class="fw-bold">ID</th>
+                <th class="fw-bold">Home/Dashboard</th>
+                <th class="fw-bold">Workout List</th>
+                <button type="button" class="btn btn-primary">Add Workout</button>
         </thead>
         <tbody>
             @foreach($fitnesses as $fitness)
